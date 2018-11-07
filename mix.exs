@@ -17,7 +17,7 @@ defmodule Thrift.Mixfile do
 
      # Testing
      test_coverage: [tool: ExCoveralls],
-     preferred_cli_env: ["coveralls": :test, "coveralls.detail": :test, "coveralls.post": :test],
+     preferred_cli_env: [coveralls: :test, "coveralls.detail": :test, "coveralls.post": :test],
 
      # URLs
      source_url: @project_url,
